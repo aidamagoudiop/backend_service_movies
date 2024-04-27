@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title":"L'Exorciste",
+        "price":  1973,
+        "categorie": "horreur"
+    },
+    {
+        "id": 2,
+        "title": "Shining",
+        "price": 1980,
+        "categorie": "horreur"
+    },
+    {
+        "id": 3,
+        "title":"Titanic" ,
+        "price": 1997,
+        "categorie": "romantisme"
+    },
+    {
+        "id": 4,
+        "title":"La Folie des Grandeurs" ,
+        "price": 1971,
+        "categorie": "comedie"
+    },
+    {
+        "id": 4,
+        "title":"The Hangover" ,
+        "price": 2009,
+        "categorie": "comedie"
+    }
+
+
+
+]
