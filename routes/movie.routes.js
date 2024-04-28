@@ -8,7 +8,7 @@ module.exports = app => {
     // Retrieve all Movies
     router.get("/", movies.findAll);
 
-    router.get("/registered", movies.findAllRegistered);
+    router.get("/categorie", movies.findAllRegistered);
 
     router.get("/:id", movies.findOne);
 
