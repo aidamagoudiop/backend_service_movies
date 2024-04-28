@@ -7,6 +7,17 @@ module.exports = app => {
   
     // Retrieve all Movies
     router.get("/", movies.findAll);
-  
+
+    router.get("/registered", movies.findAllRegistered);
+
+    router.get("/:id", movies.findOne);
+
+    router.put("/:id", movies.update);
+
+    router.delete("/", movies.delete);
+
+    router.delete("/", movies.deleteAll);
+
+
     app.use("/api/movies", router);
   };
