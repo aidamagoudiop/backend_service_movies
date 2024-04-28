@@ -14,7 +14,7 @@ module.exports = app => {
 
     router.put("/:id", movies.update);
 
-    router.delete("/", movies.delete);
+    router.delete("/:id", movies.delete);
 
     router.delete("/", movies.deleteAll);
 
